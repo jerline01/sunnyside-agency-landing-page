@@ -1,0 +1,181 @@
+body {
+  font-family: 'Fraunces', serif;
+}
+
+p, .navbar, .contact {
+  font-family: 'Barlow', sans-serif;
+}
+
+/* navigation bar */
+.navbar-nav {
+  padding-left: 65%;
+}
+
+.nav-item {
+  padding-left: 3%;
+}
+
+.contact-button {
+  border-radius: 20px;
+  background-color: white;
+  border: 0;
+  padding: 8% 30%;
+}
+
+/* for font color change */
+.navbar-light .navbar-brand {
+  color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-light .navbar-nav .active .nav-link {
+  color: white;
+}
+
+.bg-light {
+  background-color: #3DB2FF !important;
+}
+
+/* header section */
+.title {
+  color: white;
+  text-align: center;
+  padding: 5% 0 0;
+  background-color: #3DB2FF;
+}
+
+.arrow {
+  position: absolute;
+  right: 900px;
+  bottom: 300px;
+}
+
+.front-img {
+  width: 50%;
+  height: auto;
+}
+
+/* transform */
+.transform {
+  padding: 15%;
+}
+
+.egg-img, .cup-img {
+  width: 100%;
+}
+
+.transform-text, .stand-out-text {
+  padding: 3% 0;
+}
+
+/* stand out */
+.img {
+  padding: 0;
+}
+
+.stand-out {
+  padding: 15%;
+}
+
+/* third section */
+.graphic, .photo {
+  width: 100%;
+}
+
+.section {
+  padding: 0;
+}
+
+.pic-text {
+  position: absolute;
+  bottom: 20px;
+  padding: 7%;
+  text-align: center;
+}
+
+.inside-content {
+  padding: 3% 25%;
+}
+
+/* testimonials */
+.testimonials {
+  padding: 7%;
+  text-align: center;
+}
+
+.testimonial-img {
+  border-radius: 50%;
+  width: 20%;
+  margin: 10%;
+}
+
+.testimonial-text {
+  padding-bottom: 5%;
+}
+
+h5, .designation {
+  color: hsl(210, 4%, 67%);
+}
+
+/* images */
+.images img {
+  width: 100%;
+}
+
+.col-lg-3 {
+  padding: 0;
+}
+
+/* contact */
+.contact {
+  padding: 5%;
+  background-color:  hsl(168, 34%, 41%);
+  text-align: center;
+}
+
+.brand-name {
+  padding-bottom: 3%;
+}
+
+span {
+  padding: 2%;
+}
+
+.icon {
+  padding: 2%;
+}
+
+@media (max-width:600px) {
+
+  /* navigation bar */
+  .navbar-nav {
+    padding-left: 0;
+  }
+
+  .contact-button {
+    padding: 2%;
+  }
+
+  .arrow {
+    position: relative;
+    left: 130px;
+    bottom: 0;
+  }
+
+  /* stand out */
+  .transform, .stand-out {
+    text-align: center;
+  }
+
+  /* third section */
+  .pic-text {
+    bottom: 0;
+  }
+
+  .inside-content {
+    padding: 2%;
+  }
+}
